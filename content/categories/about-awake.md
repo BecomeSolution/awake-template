@@ -1,6 +1,6 @@
 ---
 name: Séduction
 image: /uploads/seduction.jpg
-description: .
+description: Catégorie Sédution
 ---
 All about the Awake Nuxt Template
