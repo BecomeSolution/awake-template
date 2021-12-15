@@ -6,7 +6,7 @@
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
-        Être informer d'un nouveau post.
+        S'inscrire à la Newsletter
       </button>
     </site-hero>
     <main-section theme="one-column">
