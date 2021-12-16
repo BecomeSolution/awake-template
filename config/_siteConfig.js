@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Séducquais',
-  tagline: 'La Table des Rois',
+  siteName: 'attente de nom',
+  tagline: 'Depuis 2016',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,25 +19,16 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
-    },
-    {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
       name: 'Categories',
       link: '/categories'
     },
     {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
+      name: 'About',
+      link: '/about'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
+      name: 'Discord',
+      link: 'https://discord.gg/JedDMheh',
       target: '_blank'
     }
   ],
@@ -57,18 +48,11 @@ export default {
     theme: 'boxes' // Options: boxes, grid, image-grid
   },
 
-  // Disqus
-  disqus: {
-    on: true,
-    loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
-  },
-
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    heading: 'Être averti !',
+    btnText: 'S\'inscire',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
